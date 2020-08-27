@@ -1,0 +1,8 @@
+prefix=/home/jeevan/catkin_ws/src/costmap/build/devel
+
+Name: costmap
+Description: Description of costmap
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

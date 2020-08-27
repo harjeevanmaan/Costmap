@@ -1,0 +1,31 @@
+<launch>
+    <arg name="map_file" default="$(find costmap)/map/map.yaml"/>
+    <arg name="node_start_delay" default="1.0" />  
+    <arg name="bag_filename" default="$(find costmap)/bag/2020-07-16-15-20-18.bag" />
+    <arg name="map_server_name" default="/static_map" />
+    <arg name="pointcloud_topic" default="/camera/depth/points" />
+    <arg name="costmap_topic" default="jeevon_costmap" />
+    <arg name="lower_thres" default="0.1" />
+    <arg name="upper_thres" default="1.0" />
+    <arg name="inner_rad" default="0.140" />
+    <arg name="outer_rad" default="0.253" />
+
+    <node pkg="map_server" type="map_server" name="map_server2" args="$(arg map_file)" output="screen"/>
+    <!-- <node name="listener" pkg="roscpp_tutorials" type="listener" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' " /> -->
+
+    <node pkg="costmap" type="costmap_generator" name="costmap_generator" output="screen">
+        <param name="use_sim_time" value="true" />
+        <param name="map_server_name" value="$(arg map_server_name)" />
+        <param name="pointcloud_topic" value="$(arg pointcloud_topic)" />
+        <param name="costmap_topic" value="$(arg costmap_topic)" />
+        <param name="lower_thres" value="$(arg lower_thres)" type="double" />
+        <param name="upper_thres" value="$(arg upper_thres)" type="double" />
+        <param name="inner_rad" value="$(arg inner_rad)" type="double" />
+        <param name="outer_rad" value="$(arg outer_rad)" type="double" />
+    </node>
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find costmap)/rviz/config_file.rviz" />
+
+    <node pkg="rosbag" type="play" name="player" output="screen" args="-l $(arg bag_filename)" />
+
+</launch>

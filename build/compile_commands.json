@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/jeevan/catkin_ws/src/costmap/build",
+  "command": "/usr/bin/g++-6  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap\\\" -I/home/jeevan/catkin_ws/src/costmap/include -I/home/jeevan/catkin_ws/devel/include -I/home/jeevan/catkin_ws/src/common_msgs/sensor_msgs/include -I/home/jeevan/catkin_ws/src/geometry2/tf2_ros/include -I/home/jeevan/catkin_ws/src/geometry2/tf2/include -I/home/jeevan/catkin_ws/src/geometry2/tf2_msgs/include -I/home/jeevan/catkin_ws/src/geometry2/tf2_eigen/include -I/home/jeevan/catkin_ws/src/navigation/costmap_2d/include -I/home/jeevan/catkin_ws/src/navigation/voxel_grid/include -I/home/jeevan/catkin_ws/src/geometry2/tf2_sensor_msgs/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.8 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/vtk-6.3 -I/usr/include/freetype2 -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -I/usr/include/hdf5/openmpi -I/usr/include/libxml2 -I/usr/include/jsoncpp -I/usr/include/tcl  -g   -o CMakeFiles/costmap_generator.dir/src/main.cpp.o -c /home/jeevan/catkin_ws/src/costmap/src/main.cpp",
+  "file": "/home/jeevan/catkin_ws/src/costmap/src/main.cpp"
+},
+{
+  "directory": "/home/jeevan/catkin_ws/src/costmap/build",
+  "command": "/usr/bin/g++-6  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap\\\" -I/home/jeevan/catkin_ws/src/costmap/include -I/home/jeevan/catkin_ws/devel/include -I/home/jeevan/catkin_ws/src/common_msgs/sensor_msgs/include -I/home/jeevan/catkin_ws/src/geometry2/tf2_ros/include -I/home/jeevan/catkin_ws/src/geometry2/tf2/include -I/home/jeevan/catkin_ws/src/geometry2/tf2_msgs/include -I/home/jeevan/catkin_ws/src/geometry2/tf2_eigen/include -I/home/jeevan/catkin_ws/src/navigation/costmap_2d/include -I/home/jeevan/catkin_ws/src/navigation/voxel_grid/include -I/home/jeevan/catkin_ws/src/geometry2/tf2_sensor_msgs/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.8 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/vtk-6.3 -I/usr/include/freetype2 -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -I/usr/include/hdf5/openmpi -I/usr/include/libxml2 -I/usr/include/jsoncpp -I/usr/include/tcl  -g   -o CMakeFiles/costmap_generator.dir/src/costmap.cpp.o -c /home/jeevan/catkin_ws/src/costmap/src/costmap.cpp",
+  "file": "/home/jeevan/catkin_ws/src/costmap/src/costmap.cpp"
+},
+{
+  "directory": "/home/jeevan/catkin_ws/src/costmap/build/gtest/googlemock",
+  "command": "/usr/bin/g++-6  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/jeevan/catkin_ws/src/costmap/build/gtest/googlemock",
+  "command": "/usr/bin/g++-6  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/jeevan/catkin_ws/src/costmap/build/gtest/googlemock",
+  "command": "/usr/bin/g++-6  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/jeevan/catkin_ws/src/costmap/build/gtest/googlemock",
+  "command": "/usr/bin/g++-6  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/jeevan/catkin_ws/src/costmap/build/gtest/googlemock",
+  "command": "/usr/bin/g++-6  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/jeevan/catkin_ws/src/costmap/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/g++-6  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/jeevan/catkin_ws/src/costmap/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/g++-6  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+}
+]

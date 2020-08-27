@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jeevan/catkin_ws/src/costmap/build/devel/setup.sh
