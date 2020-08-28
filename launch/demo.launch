@@ -1,9 +1,9 @@
 <launch>
     <arg name="map_file" default="$(find costmap)/map/map.yaml"/>
     <arg name="node_start_delay" default="1.0" />  
-    <arg name="bag_filename" default="$(find costmap)/bag/2020-07-16-15-20-18.bag" />
+    <arg name="bag_filename" default="$(find costmap)/bag/costmap.bag" />
     <arg name="map_server_name" default="/static_map" />
-    <arg name="pointcloud_topic" default="/camera/depth/points" />
+    <arg name="pointcloud_topic" default="/voxel_grid/output" />
     <arg name="costmap_topic" default="jeevon_costmap" />
     <arg name="lower_thres" default="0.1" />
     <arg name="upper_thres" default="1.0" />
@@ -25,7 +25,6 @@
     </node>
 
     <node pkg="rviz" type="rviz" name="rviz" args="-d $(find costmap)/rviz/config_file.rviz" />
-
     <node pkg="rosbag" type="play" name="player" output="screen" args="-l $(arg bag_filename)" />
 
 </launch>

@@ -11,8 +11,8 @@ The Costmap shown without the pointcloud.
 To view a sample robot generating a costmap as it traverses, run the command 
 `rosrun costmap demo.launch`
 
-Alternatively the node can be run on a custom robot and map using 
+Alternatively the node can be run on a custom robot, map or rosbag by adjusting the file parameters in the demo.launch file. The costmap generating node can be run simply by running:
 
 `rosrun costmap costmap_generator`
 
-However all of the necessary sensor topics will have to be configured, along with robot inner and outer radius.
+However if running it this way, all of the necessary sensor topics will have to be configured, along with robot inner and outer radius.

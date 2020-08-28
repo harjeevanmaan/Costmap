@@ -23,7 +23,7 @@ Costmap::Costmap(const std::string map_name, const std::string pc_topic, const s
             : map_server_name(map_name), pointcloud_topic(pc_topic), costmap_topic(cmap_topic), 
             lower_thres(l_thres), upper_thres(u_thres), inner_rad(i_rad), outer_rad(o_rad){
     load_map(map_name);
-    pc_sub = n.subscribe("/camera/depth/points", 1, &Costmap::obstacle_layer_callback, this);
+    pc_sub = n.subscribe(pointcloud_topic, 1, &Costmap::obstacle_layer_callback, this);
     costmap_pub = n.advertise<nav_msgs::OccupancyGrid>("jeevon_costmap", 1);
     input_cloud = boost::make_shared<pcl::PointCloud<pcl::PointXYZ>>();
     std::thread t(&Costmap::check_callbacks, this);

@@ -22,6 +22,7 @@
 
 class Costmap{
 private:
+    std::string pointcloud_topic;
     ros::NodeHandle n;
     nav_msgs::OccupancyGrid static_map;
     nav_msgs::OccupancyGrid costmap;
